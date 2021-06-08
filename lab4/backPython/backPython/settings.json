@@ -1,0 +1,19 @@
+{
+  "ENGINE": "django.db.backends.postgresql_psycopg2",
+  "NAME": "company_python",
+  "USER": "dominuss",
+  "PASSWORD": "123456",
+  "HOST" : "127.0.0.1",
+  "PORT" : "5432",
+  "debug" : true,
+  "hosts" : [
+    "*",
+    "https://192.168.31.5"
+  ],
+  "CORS_ALLOW_ALL_ORIGINS" : true,
+  "CORS_ALLOW_ORIGINS" : [
+    "https://192.168.31.5:3000",
+    "*"
+  ],
+  "SECRET_KEY" : "django-insecure-_-y74g!hltq+)8k+!cy55=qhnk#2by$$1z08vrnhjw2166%w(s"
+}
